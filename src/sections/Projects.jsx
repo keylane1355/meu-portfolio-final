@@ -1,4 +1,4 @@
-export const Hero =() => {
+export const Projects =() => {
   return <section></section>;
 
 }

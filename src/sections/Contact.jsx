@@ -1,4 +1,4 @@
-export const Hero =() => {
+export const Contact =() => {
   return <section></section>;
 
 }
