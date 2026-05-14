@@ -30,10 +30,15 @@ export const Navbar =() => {
         </div> 
 
         {/* Cta Botão  */}
-        <div>
+        <div className="hidden md:block">
           <Button size="sm"> Contato </Button>
-        
         </div>
+
+        {/* Mobile Menu do Botão  */}
+            <button className="md:hidden p-2 text-foreground">
+
+            </button>
+
     </nav>
   </header>
   );
